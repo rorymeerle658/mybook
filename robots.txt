@@ -1,0 +1,20 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /register
+Disallow: /login
+Crawl-delay: 2
+
+User-agent: OtherBot
+Allow: /allow-for-all-bots
+Allow: /allow-only-for-other-bot
+Disallow: /register
+Disallow: /login
+Crawl-delay: 2
+
+User-agent: *
+Allow: /
+Disallow: /register
+Disallow: /login
+Crawl-delay: 10
+Sitemap: https://c2b7db12a6a39b/sitemap-index.xml
+Host: https://c2b7db12a6a39b
